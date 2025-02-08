@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.product-description {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+.product-title {
+    font-family: "Bebas Neue", serif;
+    font-size: 3rem;
+    font-style: normal;
+    color:royalblue;
+    margin-bottom: 20px;
+}
+ .product-description-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+ .features {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.features li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+    .features li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 1.2rem;
+}
+.buy-now-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+    <div class="product-container">
+        <div class="product-description">
+            <h1 class="product-title">BLUELAND Hand Soap Starter Set</h1>
+            <p class="product-description-text">Award-winning hand soap designed to be reused and refilled again (and again) to eliminate the need for single-use plastic. Buy the bottle once, and refill forever with 100% plastic-free tablets that come in compostable paper-based packaging. Never toss another plastic bottle again.</p>
+
+            <ul class="features">
+                <li><span><b>SAFE FOR KIDS AND PETS.</b></span> Hypoallergenic, EPA Safer Choice Certified, Leaping Bunny Certified, Cruelty-Free, Vegan, B Corp Certified, and Climate Neutral.</li>
+                <li><span><b>CLEAN INGREDIENTS.</b></span> Made with people and planet-friendly ingredients free from parabens, dyes, and phthalates.</li>
+                <li><span><b>EASY TO USE.</b></span> Simply fill your bottle with water and drop in a tablet, and allow the tablet to fully dissolve to make 9oz of Foaming Hand Soap. Tablets are easy to store and take up 10x less space than the traditional bottle.</li>
+            </ul>
+
+            <a href="https://www.amazon.com/BLUELAND-Hand-Soap-Starter-Set/dp/B0C4NKQYZ6?ref_=ast_sto_dp&th=1" class="buy-now-button">Buy Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
