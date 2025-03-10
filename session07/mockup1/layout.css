@@ -1,0 +1,159 @@
+
+body{
+  margin:0; 
+  padding:0; 
+  font-size: 14px;
+  font-family: "montserrat";sans-serif;
+  color:pink;
+ }
+
+.outer{
+text-align: center;
+}
+
+.topnav{
+background-color:#ECECEC;
+padding:2em;
+color:#00A699;
+text-align: left;
+}
+
+
+.page{
+max-width:1200px;
+width:100%;
+display:inline-block;
+}
+
+
+
+/* Hero Section Styling */
+
+.hero {
+    margin:auto;
+    width:100%;
+    padding:11em;
+    text-align: center;
+    background-image:url("img/fjord.png") ;
+    background-size:cover;
+    color: white;
+}
+
+.hero img {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.hero h2 {
+    font-size: 3rem; 
+    color: white;
+    font-weight: 550;
+    position:relative;
+    vertical-align: text-top;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Slightly larger for better readability */
+    color: #767676; 
+    padding-left:10px;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*ROUNDED SEARCH CONTAINER*/
+.hero .pill{
+    position: relative;
+    overflow:hidden;
+    text-align:left;
+    height: calc(60px - 25px);
+    width: calc(500px - 70px);
+    margin: 20px auto;
+    background-color: #ECECEC;
+    border-radius: 12px; /* Rounded corners*/
+    box-sizing: border-box;
+}
+
+
+/* HEADER FOR LOWER SECTION BOXES */
+
+.midheadername{ 
+    text-align:left;
+    padding-left: 10px;
+    padding-top:20px;
+    padding:.5em;
+    font-size: 1.3rem; /* Larger font */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00A699;
+    background-color:ghostwhite;
+
+}
+.viewmore{
+    text-align:right;
+    padding-right: 10px;
+    padding-top:20px;
+    font-weight: bold;
+    color: #767676;
+    background-color:ghostwhite;
+    padding:1em;
+
+
+}
+
+
+/* LOWER SECTION COMPONENTS */
+
+.lowbar{
+    position: relative;
+    width: 100%;
+    height:100px;
+
+}
+
+.lowbar .pill{
+    position: relative;
+    overflow:hidden;
+    height: calc(200px - 30px);
+    width: calc(400px - 30px);
+    margin: 20px auto;
+    background-color: #FF5A5F;
+    border-radius: 12px; /* Rounded corners*/
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+.lowbar img {
+    width: 100%;
+    max-width:170px;
+    height: 100%;
+    float:right;
+}
+
+.lowbar .title{
+    text-align:left;
+    padding-left: 10px;
+    padding-top:20px;
+    font-size: 1.3rem; /* Larger font */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #484848;
+}
+
+.lowbar p{
+    text-align:left;
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+
