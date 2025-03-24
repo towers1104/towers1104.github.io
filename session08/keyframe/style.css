@@ -1,0 +1,170 @@
+body{
+	margin:0;
+	padding:0;
+   background-color: #999;
+   font-size: 40px;
+   font-family: sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+   max-width:1200px;
+   width:100%;
+  height:100%;
+  display: inline-block;
+   text-align: left;
+   height:98vh;
+}
+
+/* animation 1 */
+
+.a_box{
+   text-align: center;;
+   font-size:20px;
+   color:#FFF;
+   background-color: #FF5733;
+   padding:20px;
+   width:200px;
+   height:200px;
+   box-sizing: border-box;
+   margin:50px;
+   display: inline-block;
+
+
+   animation-fill-mode: forwards;
+   animation-name: changeboxa;
+   animation-delay: 1s;
+   animation-duration: 3.5s;
+   animation-timing-function: ease-out;
+}
+
+/* animaitn 1 END */
+
+/* animation 2 */
+
+.b_box{
+   text-align: center;;
+   font-size:20px;
+   color:hotpink;
+   background-color:#06D8ED;
+   padding:20px;
+   width:200px;
+   height:200px;
+   box-sizing: border-box;
+   margin:50px;
+   display: inline-block;
+
+
+   animation-fill-mode: forwards;
+   animation-name: changeboxb;
+   animation-duration: 4s;
+   animation-delay:2.5s;
+   animation-timing-function: ease-out;
+}
+
+/* animaitn 2 END */
+
+/* animation 3 */
+
+.c_box{
+   text-align: center;;
+   font-size:30px;
+   color:lavenderblush;
+   background-color:#ED06D8;
+   padding:20px;
+   width:250px;
+   height:200px;
+   box-sizing: border-box;
+   margin:50px;
+
+
+   animation-fill-mode: forwards;
+   animation-name: changeboxc;
+   animation-delay:4s;
+   animation-duration: 3s;
+   animation-timing-function: ease-out;
+}
+
+/* animaitn 3 END */
+
+@keyframes changeboxa{
+0%{
+  background-color:#7D3C98;
+  transform:rotate(66deg);
+}
+50%{
+  background-color:#4A235A;
+  transform:rotate(90deg);
+}
+
+100%{
+  background-color:#ED2E06;
+  transform:rotate(180deg);
+}
+}
+
+
+@keyframes changeboxb{
+ 0%{
+  transform:skewX(20deg);
+  border-radius:20px;
+  transform: scale(1.2,1.3);
+}
+50%{
+  background-color:#06EDCA;
+  transform:rotate(90deg);
+  transform:skewX(30deg);
+  border-radius:50px;
+  transform: scale(1.8,2);
+}
+
+100%{
+  background-color:#ABEBC6;
+  transform:skewY(1deg);
+  border-radius:70px;
+}
+}
+
+
+
+
+@keyframes changeboxc{
+ 0%{
+  transition: width 2s;
+
+}
+25%{
+  background-color:#DF06ED;
+  transform:rotate(90deg);
+  transition: width 6s;
+  border-radius:30px;
+}
+
+50%{
+  background-color:#CA06ED;
+  transform:rotate(180deg);
+  transform:translateX(70px);
+  border-radius:60px;
+}
+
+100%{
+  background-color:#9606ED;
+  border-radius:100px;
+   transform:rotate(360deg);
+  transform:translateX(140px);
+}
+}
