@@ -1,0 +1,130 @@
+
+body{
+  margin:0; 
+  padding:0; 
+  font-size: 14px;
+  font-family: sans-serif;
+  color:pink;
+ }
+
+
+
+/* Hero Section Styling */
+
+.hero {
+    margin:auto;
+    max-width:1000px;
+    padding:11em;
+    width: auto;
+    text-align: center;
+    background-image:url("img/fjord.png") ;
+    background-size:cover;
+    color: white;
+}
+
+.hero img {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.hero h2 {
+    font-size: 3rem; 
+    color: #ff5a5f;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Slightly larger for better readability */
+    color: #767676; 
+    padding-left:10px;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*ROUNDED SEARCH CONTAINER*/
+.hero .pill{
+    position: relative;
+    overflow:hidden;
+    text-align:left;
+    height: calc(60px - 25px);
+    width: calc(500px - 70px);
+    margin: 20px auto;
+    background-color: #ECECEC;
+    border-radius: 12px; /* Rounded corners*/
+    box-sizing: border-box;
+}
+
+
+
+/* LOWER SECTION COMPONENTS */
+
+.lowbar{
+    position: relative;
+    width: 1200px;
+    height:100px;
+   margin: 120px auto;
+
+}
+
+.lowbar .pill{
+    position: relative;
+    overflow:hidden;
+    height: calc(200px - 30px);
+    width: calc(400px - 30px);
+    margin: 20px auto;
+    background-color: #FF5A5F;
+    border-radius: 12px; /* Rounded corners*/
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+.lowbar img {
+    max-width: 90%;
+    height: 100%;
+    float:right;
+}
+
+.lowbar .content{
+    text-align:left;
+    padding-left: 10px;
+    padding-top:20px;
+    position: relative;
+}
+
+.lowbar .title {
+    font-size: 1.3rem; /* Larger font */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #484848;
+}
+
+.lowbar .phrase {
+    font-size: 18px;
+    color: white;
+    top:20px; 
+    position: relative;
+}
+
+
+.pill:hover{
+    animation-fill-mode: forwards;
+    animation-name:changescale, changecolor;
+    animation-duration:1.2s;
+}
+
+@keyframes changescale{
+    from {transform: scale(1,1)}
+    to {transform: scale(1.1,1.1)}
+}
+@keyframes changecolor{
+    from {background-color:#FF5A5F;}
+    to {background-color:#00a699;}
+}
