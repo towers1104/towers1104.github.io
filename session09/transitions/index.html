@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+
+   <style>
+
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:black;
+        max-width:650px;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+       background-color:ghostwhite;
+       display: inline-block;
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+
+    }
+
+
+    .center {
+     padding: 60% 0;
+     text-align: center;
+    }
+
+
+    .card_overlay{
+    	position:absolute;
+    	width:100%;
+    	height:100%;
+    	transition: 1s ease;
+    	background-color: white;
+     
+
+    }
+
+
+    .card:hover .card_overlay{
+    	opacity: 0;
+    }
+
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  <div class="card_overlay"><p class="center">In NYC?</p></div>
+       	  <img src="nycmap.png" alt="New York tourist atractions map"> 
+       </div>
+	</div>
+
+</body>
+</html>
