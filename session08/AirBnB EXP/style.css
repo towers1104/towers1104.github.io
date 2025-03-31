@@ -1,0 +1,144 @@
+
+body{
+  margin:0;  
+  padding:0;
+  font-family: "montserrat";
+  font-size: 18px;
+
+}
+.outer{
+   text-align: center;
+   padding:10px;
+}
+.page{
+  position:relative;
+  max-width:1250px;
+  width:100%;
+   /*height:95vh;*/
+   display: inline-block;
+   text-align:left;
+   padding:10px;
+   background-color: white;
+}
+
+.topofpage{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  padding: .8em;
+  justify-content: center;
+  justify-content: flex-end;
+  position: sticky;
+  position:-webkit-sticky; /* Safari */
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:white;
+  
+}
+
+
+a{
+  color:#484848;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:#FF5A5F;  
+ }
+ 
+.nav{
+  font-family:"montserrat";
+   margin-left:10px;
+   margin-top:10px;
+   text-align: right;
+   flex-grow:1;
+   position:sticky;
+   width:100%;
+   height:100%;
+}
+.navhere{
+  color:#767676;
+	  }
+
+.logo{
+  text-align:left;
+  max-width:180px;
+  min-width: 140px;
+}
+.logoimg{
+  width:65%;
+}
+
+.logosubimg{
+  width:25%;
+}
+
+.languages{
+  text-align:right;
+  max-width:40px;
+}
+.worldimg{
+  width:50%;
+}
+
+
+
+}
+.content{
+  background-color:#ECECEC;
+  position:relative;
+}
+
+
+.herotilephrase {
+    font-size: 3rem; 
+    color: white;
+    font-weight: 550;
+    text-align:center;
+    justify-content: flex-end;
+    position:relative;
+    vertical-align: text-top;
+    line-height: 90px;
+   
+}
+
+.herotile p {
+    font-size: 1.2rem; /* Slightly larger for better readability */
+    color: #767676; 
+    padding-left:10px;
+    margin-top: 6px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+  font-size: 52px;
+  font-weight: 700;
+  color: black;
+  margin-top: 80px;
+}
+
+.extraphoto img{
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+    border-radius: 12px; /* Rounded corners*/
+}
+
+.button p {
+    font-size: 1.2rem; /* Slightly larger for better readability */
+    font-weight: bold;
+    color: white; 
+    text-align: center;
+    padding-left:10px;
+    margin-top: 6px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
